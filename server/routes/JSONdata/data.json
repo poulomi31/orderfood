@@ -1,0 +1,60 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "name": "Pizza",
+            "image": "https://cdn.britannica.com/08/177308-050-94D9D6BE/Food-Pizza-Basil-Tomato.jpg",
+            "subItemsData": {
+                "name": "Tasty Pizzas",
+                "subItems": [
+                    {
+                        "name": "Tomato Basil Italian Pizza",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJBGnDH-wt1CWXd7MbEBSokp3V5D9BSV9_w&usqp=CAU",
+                        "price": "450",
+                        "description": "Dressed with oil, the origanum and garlic cloves shredded minutely. Fresh tomatoes sauce with Parmesan cheese, jalepeno peppers and red peppers."
+                    },
+                    {
+                        "name": "Bombay Pizza",
+                        "image": "https://b.zmtcdn.com/data/pictures/3/19513123/fbdfa6607bdbc799aba05cd298cf8621.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+                        "price": "550",
+                        "description": "Spicy tomato sauce with Italian herbs, mushrooms, onion, cottage cheese, coriander and mozzarella"
+                    },
+                    {
+                        "name": "Sicilia Pizza",
+                        "image": "https://static01.nyt.com/images/2018/12/05/dining/05kitchenrex1/merlin_147457287_3700e223-72be-4dd8-a70e-275066fd386f-articleLarge.jpg",
+                        "price": "450",
+                        "description": "A thick base pizza with fresh tomato sauce, mushrooms, garlic, pickled onions"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Burger",
+            "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+            "subItemsData": {
+                "name": "Crispy Burgers",
+                "subItems": [
+                    {
+                        "name": "Fried Chicken Burger",
+                        "image": "https://img.taste.com.au/dQuaxcdj/taste/2016/11/lillydale_buttermilkfriedchickenburger-118174-1.jpg",
+                        "price": "450",
+                        "description": "Old School Chicken Burger"
+                    },
+                    {
+                        "name": "Paneer Tikka Burger",
+                        "image": "https://d3gy1em549lxx2.cloudfront.net/7132f972-c0ac-400a-afa3-6e811c93bd48.JPG",
+                        "price": "450",
+                        "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                    },
+                    {
+                        "name": "Chicken Classic Cheese Burger",
+                        "image": "https://buy.am/media/image/e5/5a/00/Chicken-Cheese-Mini-Classic-Burger.jpg",
+                        "price": "550",
+                        "description": "Aged cheddar, sweet pickle, tomato, red onion"
+                    }
+                ]
+            }
+        }
+    ]
+}

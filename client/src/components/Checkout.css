@@ -1,0 +1,104 @@
+.product {
+    position: relative;
+    box-shadow: 5px 5px 5px #ccc;
+    width: 65%;
+    min-height: 200px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.product:hover {
+    box-shadow: 10px 10px 10px #ccc;
+    transition: all 0.5s ease-in;
+}
+
+.check-img {
+    width: 200px;
+    height: 150px;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    text-decoration: line-through;
+}
+
+.box {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #ccc;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px;
+}
+
+.remove {
+    width: 150px;
+    background-color: rgb(71, 5, 5);
+    color: rgb(253, 208, 208);
+}
+
+.clearButton {
+    background-color: white;
+    box-shadow: 1px 1px 2px #ccc;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+    top: 10px;
+}
+
+.price-page {
+    background-color: rgba(255, 255, 255, 0.808);
+    box-shadow: 10px 10px 30px #ccc;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 0 auto;
+    width: 50%;
+    border-radius: 15px;
+    min-height: 200px;
+    position: relative;
+    padding: 30px;
+}
+
+.price-page:hover {
+    transition: all 0.8s;
+    box-shadow: 10px 10px 50px #ccc;
+}
+
+.price-page .clear-all {
+    background-color: rgb(147, 86, 197);
+    box-shadow: 1px 1px 2px #ccc;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: 2px;
+    top: 2px;
+}
+
+.price-page .checkout {
+    width: 150px;
+    font-size: 1.2rem;
+    min-height: 30px;
+    background-color: #6d9b03;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+}
